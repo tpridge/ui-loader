@@ -1,8 +1,15 @@
 {
-  "name": "ui-loader",
-  "version": "0.1.1",
+  "name": "@scdhhs/ui-loader",
+  "version": "0.1.0",
   "description": "A react component that displays a progress indicator.",
   "main": "ui-loader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scdhhs/ui-loader.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "npm run lint && npm run specs",
     "lint": "node_modules/.bin/jsxhint src",
