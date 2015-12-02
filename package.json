@@ -1,6 +1,6 @@
 {
   "name": "@scdhhs/ui-loader",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A react component that displays a progress indicator.",
   "main": "ui-loader.js",
   "repository": {
