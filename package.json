@@ -1,6 +1,6 @@
 {
   "name": "ui-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A react component that displays a progress indicator.",
   "main": "ui-loader.js",
   "scripts": {
