@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "npm run lint && npm run specs",
+    "test": "npm run lint && npm run style && npm run specs",
     "lint": "node_modules/.bin/jsxhint src",
     "style": "node_modules/.bin/jscs src/ui-loader.jsx",
     "build": "npm run build-module && npm run less",
