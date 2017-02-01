@@ -5,19 +5,22 @@ import UILoader from '../src/ui-loader.jsx';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this._spinForever = this._spinForever.bind(this);
     this.state = {
       ready: false
     };
+    this._spinForever = this._spinForever.bind(this);
   }
+
   componentDidMount() {
     setTimeout(() => {
       this.setState({ready: true});
     }, this.props.timeout);
   }
+
   _spinForever() {
     this.setState({ready: false});
   }
+  
   render() {
     return (
       <main>

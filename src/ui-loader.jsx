@@ -5,6 +5,7 @@ class UILoader extends React.Component {
   constructor(props) {
     super(props);
   }
+  
   render() {
     if (this.props.ready) {
       return <div>{this.props.children}</div>;
